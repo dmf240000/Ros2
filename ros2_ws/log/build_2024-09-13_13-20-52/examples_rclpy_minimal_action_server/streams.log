@@ -1,0 +1,54 @@
+[2.671s] Invoking command in '/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[2.942s] running develop
+[2.942s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.942s]   warnings.warn(
+[3.090s] Removing /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[3.128s] Invoked command in '/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[3.131s] Invoking command in '/home/donavyn/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data --force
+[3.465s] running egg_info
+[3.466s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[3.466s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[3.467s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[3.467s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[3.467s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[3.470s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.471s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.471s] running build
+[3.471s] running build_py
+[3.472s] creating /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[3.472s] creating /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[3.472s] creating /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.472s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.472s] copying examples_rclpy_minimal_action_server/server.py -> /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.472s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.472s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.472s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.473s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.473s] running install
+[3.473s] running install_lib
+[3.475s] creating /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.475s] copying /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.475s] copying /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.475s] copying /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.475s] copying /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.475s] copying /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.475s] copying /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.476s] byte-compiling /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[3.477s] byte-compiling /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[3.478s] byte-compiling /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[3.478s] byte-compiling /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[3.479s] byte-compiling /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[3.480s] byte-compiling /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[3.481s] running install_data
+[3.482s] copying resource/examples_rclpy_minimal_action_server -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[3.482s] copying package.xml -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[3.482s] running install_egg_info
+[3.485s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.2-py3.10.egg-info
+[3.486s] running install_scripts
+[3.521s] Installing server script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.522s] Installing server_defer script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.522s] Installing server_not_composable script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.522s] Installing server_queue_goals script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.522s] Installing server_single_goal script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.523s] writing list of installed files to '/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[3.564s] Invoked command in '/home/donavyn/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/donavyn/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data --force

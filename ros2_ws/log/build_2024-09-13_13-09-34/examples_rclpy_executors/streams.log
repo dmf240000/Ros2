@@ -1,0 +1,31 @@
+[2.400s] Invoking command in '/home/donavyn/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/donavyn/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data
+[21.527s] running develop
+[21.528s] running egg_info
+[21.528s] creating examples_rclpy_executors.egg-info
+[21.528s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[21.528s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[21.528s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[21.528s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[21.528s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[21.528s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[21.528s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[21.528s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[21.528s] running build_ext
+[21.529s] Creating /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[21.529s] Installing callback_group script to /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[21.529s] Installing composed script to /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[21.529s] Installing custom_callback_group script to /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[21.529s] Installing custom_executor script to /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[21.529s] Installing listener script to /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[21.529s] Installing talker script to /home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[21.529s] 
+[21.529s] Installed /home/donavyn/ros2_ws/build/examples_rclpy_executors
+[21.529s] running symlink_data
+[21.529s] creating /home/donavyn/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[21.529s] creating /home/donavyn/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[21.530s] creating /home/donavyn/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[21.530s] symbolically linking /home/donavyn/ros2_ws/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /home/donavyn/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[21.530s] symbolically linking /home/donavyn/ros2_ws/build/examples_rclpy_executors/package.xml -> /home/donavyn/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[21.530s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[21.530s]   warnings.warn(
+[21.567s] Invoked command in '/home/donavyn/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/donavyn/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data

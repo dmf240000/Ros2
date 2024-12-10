@@ -1,0 +1,1 @@
+Invoking command in '/home/donavyn/docker_test/ros2_ws/build/dummy_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/donavyn/docker_test/ros2_ws/src/demos/dummy_robot/dummy_map_server -DCMAKE_INSTALL_PREFIX=/home/donavyn/docker_test/ros2_ws/install/dummy_map_server

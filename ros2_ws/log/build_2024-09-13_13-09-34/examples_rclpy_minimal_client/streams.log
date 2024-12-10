@@ -1,0 +1,29 @@
+[5.033s] Invoking command in '/home/donavyn/ros2_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/donavyn/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data
+[6.014s] running develop
+[6.014s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.014s]   warnings.warn(
+[6.228s] running egg_info
+[6.232s] creating examples_rclpy_minimal_client.egg-info
+[6.233s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[6.233s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[6.233s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[6.233s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[6.233s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[6.235s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[6.240s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[6.241s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[6.249s] running build_ext
+[6.249s] Creating /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[6.256s] Installing client script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.256s] Installing client_async script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.256s] Installing client_async_callback script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.256s] Installing client_async_member_function script to /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[6.256s] 
+[6.256s] Installed /home/donavyn/ros2_ws/build/examples_rclpy_minimal_client
+[6.256s] running symlink_data
+[6.256s] creating /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index
+[6.257s] creating /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[6.257s] creating /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[6.257s] symbolically linking /home/donavyn/ros2_ws/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[6.261s] symbolically linking /home/donavyn/ros2_ws/build/examples_rclpy_minimal_client/package.xml -> /home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[6.399s] Invoked command in '/home/donavyn/ros2_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/donavyn/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/donavyn/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data

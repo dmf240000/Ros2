@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000124] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000134] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000141] (-) JobUnselected: {'identifier': 'composition'}
+[0.000149] (-) JobUnselected: {'identifier': 'demo_nodes_cpp'}
+[0.000157] (-) JobUnselected: {'identifier': 'demo_nodes_cpp_native'}
+[0.000164] (-) JobUnselected: {'identifier': 'dummy_map_server'}
+[0.000171] (-) JobUnselected: {'identifier': 'dummy_robot_bringup'}
+[0.000178] (-) JobUnselected: {'identifier': 'dummy_sensors'}
+[0.000185] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000192] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000199] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000207] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000215] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000232] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000240] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000247] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000254] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000261] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000268] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000275] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000282] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000289] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000296] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000303] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000310] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000317] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000324] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000331] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000338] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000345] (-) JobUnselected: {'identifier': 'image_tools'}
+[0.000352] (-) JobUnselected: {'identifier': 'intra_process_demo'}
+[0.000359] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000366] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.000373] (-) JobUnselected: {'identifier': 'lifecycle'}
+[0.000380] (-) JobUnselected: {'identifier': 'lifecycle_py'}
+[0.000387] (-) JobUnselected: {'identifier': 'logging_demo'}
+[0.000394] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000401] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000408] (-) JobUnselected: {'identifier': 'pendulum_control'}
+[0.000415] (-) JobUnselected: {'identifier': 'pendulum_msgs'}
+[0.000422] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000429] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000436] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000443] (-) JobUnselected: {'identifier': 'quality_of_service_demo_cpp'}
+[0.000450] (-) JobUnselected: {'identifier': 'quality_of_service_demo_py'}
+[0.000457] (-) JobUnselected: {'identifier': 'topic_monitor'}
+[0.000464] (-) JobUnselected: {'identifier': 'topic_statistics_demo'}
+[0.000471] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000478] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000487] (demo_nodes_py) JobQueued: {'identifier': 'demo_nodes_py', 'dependencies': OrderedDict()}
+[0.000496] (demo_nodes_py) JobStarted: {'identifier': 'demo_nodes_py'}
+[0.099404] (-) TimerEvent: {}
+[0.199726] (-) TimerEvent: {}
+[0.299960] (-) TimerEvent: {}
+[0.376808] (demo_nodes_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/demo_nodes_py', 'build', '--build-base', '/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build', 'install', '--record', '/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/donavyn/docker_test/ros2_ws/src/demos/demo_nodes_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'donavyn', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/donavyn', 'OLDPWD': '/home/donavyn/docker_test/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/donavyn/.nvm/versions/node/v22.11.0/bin', 'NVM_INC': '/home/donavyn/.nvm/versions/node/v22.11.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2119', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/donavyn/.nvm', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'donavyn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'donavyn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/donavyn/.nvm/versions/node/v22.11.0/bin:/home/donavyn/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/donavyn:@/tmp/.ICE-unix/1887,unix/donavyn:/tmp/.ICE-unix/1887', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/87393513_3fad_49e6_9bc5_8e3af368678f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.400071] (-) TimerEvent: {}
+[0.500339] (-) TimerEvent: {}
+[0.505493] (demo_nodes_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.505777] (demo_nodes_py) StdoutLine: {'line': b'creating ../../../build/demo_nodes_py/demo_nodes_py.egg-info\n'}
+[0.505900] (demo_nodes_py) StdoutLine: {'line': b'writing ../../../build/demo_nodes_py/demo_nodes_py.egg-info/PKG-INFO\n'}
+[0.506019] (demo_nodes_py) StdoutLine: {'line': b'writing dependency_links to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/dependency_links.txt\n'}
+[0.506118] (demo_nodes_py) StdoutLine: {'line': b'writing entry points to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/entry_points.txt\n'}
+[0.506238] (demo_nodes_py) StdoutLine: {'line': b'writing requirements to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/requires.txt\n'}
+[0.506394] (demo_nodes_py) StdoutLine: {'line': b'writing top-level names to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/top_level.txt\n'}
+[0.506465] (demo_nodes_py) StdoutLine: {'line': b"writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'\n"}
+[0.507366] (demo_nodes_py) StdoutLine: {'line': b"reading manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'\n"}
+[0.507795] (demo_nodes_py) StdoutLine: {'line': b"writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'\n"}
+[0.507891] (demo_nodes_py) StdoutLine: {'line': b'running build\n'}
+[0.507959] (demo_nodes_py) StdoutLine: {'line': b'running build_py\n'}
+[0.508063] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build\n'}
+[0.508128] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib\n'}
+[0.508187] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py\n'}
+[0.508292] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py\n'}
+[0.508355] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging\n'}
+[0.508426] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/logging/use_logger_service.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging\n'}
+[0.508521] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/logging/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging\n'}
+[0.508676] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters\n'}
+[0.508782] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/parameters/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters\n'}
+[0.508882] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/parameters/set_parameters_callback.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters\n'}
+[0.508986] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/parameters/async_param_client.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters\n'}
+[0.509071] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events\n'}
+[0.509141] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/events/matched_event_detect.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events\n'}
+[0.509309] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/events/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events\n'}
+[0.509383] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services\n'}
+[0.509446] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/services/add_two_ints_server.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services\n'}
+[0.509507] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/services/add_two_ints_client_async.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services\n'}
+[0.509569] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/services/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services\n'}
+[0.509640] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/services/add_two_ints_client.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services\n'}
+[0.509705] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/services/introspection.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services\n'}
+[0.509776] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.509837] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/topics/talker.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.509897] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/topics/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.509957] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/topics/talker_qos.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.510017] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/topics/listener.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.510118] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/topics/listener_serialized.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.510204] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/topics/listener_qos.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics\n'}
+[0.510295] (demo_nodes_py) StdoutLine: {'line': b'running install\n'}
+[0.510355] (demo_nodes_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.510450] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py\n'}
+[0.510525] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging\n'}
+[0.510592] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging/use_logger_service.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging\n'}
+[0.510653] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging\n'}
+[0.510714] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters\n'}
+[0.510796] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters\n'}
+[0.510903] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters/set_parameters_callback.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters\n'}
+[0.510971] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters/async_param_client.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters\n'}
+[0.511035] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events\n'}
+[0.511099] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events/matched_event_detect.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events\n'}
+[0.511159] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events\n'}
+[0.511232] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py\n'}
+[0.511364] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services\n'}
+[0.511423] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_server.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services\n'}
+[0.511498] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_client_async.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services\n'}
+[0.511565] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services\n'}
+[0.511640] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_client.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services\n'}
+[0.511702] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/introspection.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services\n'}
+[0.511762] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.511823] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/talker.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.511890] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.511997] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/talker_qos.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.512065] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.512125] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener_serialized.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.512180] (demo_nodes_py) StdoutLine: {'line': b'copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener_qos.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics\n'}
+[0.512253] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging/use_logger_service.py to use_logger_service.cpython-310.pyc\n'}
+[0.512535] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging/__init__.py to __init__.cpython-310.pyc\n'}
+[0.512624] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters/__init__.py to __init__.cpython-310.pyc\n'}
+[0.512728] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters/set_parameters_callback.py to set_parameters_callback.cpython-310.pyc\n'}
+[0.513008] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters/async_param_client.py to async_param_client.cpython-310.pyc\n'}
+[0.513463] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events/matched_event_detect.py to matched_event_detect.cpython-310.pyc\n'}
+[0.514061] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events/__init__.py to __init__.cpython-310.pyc\n'}
+[0.514155] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/__init__.py to __init__.cpython-310.pyc\n'}
+[0.514256] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[0.514485] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_client_async.py to add_two_ints_client_async.cpython-310.pyc\n'}
+[0.514673] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/__init__.py to __init__.cpython-310.pyc\n'}
+[0.514773] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc\n'}
+[0.514929] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/introspection.py to introspection.cpython-310.pyc\n'}
+[0.515383] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/talker.py to talker.cpython-310.pyc\n'}
+[0.515606] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/__init__.py to __init__.cpython-310.pyc\n'}
+[0.515695] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/talker_qos.py to talker_qos.cpython-310.pyc\n'}
+[0.515960] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener.py to listener.cpython-310.pyc\n'}
+[0.516135] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener_serialized.py to listener_serialized.cpython-310.pyc\n'}
+[0.516324] (demo_nodes_py) StdoutLine: {'line': b'byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener_qos.py to listener_qos.cpython-310.pyc\n'}
+[0.516569] (demo_nodes_py) StdoutLine: {'line': b'running install_data\n'}
+[0.516690] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index\n'}
+[0.516763] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index\n'}
+[0.516833] (demo_nodes_py) StdoutLine: {'line': b'creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages\n'}
+[0.516935] (demo_nodes_py) StdoutLine: {'line': b'copying resource/demo_nodes_py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages\n'}
+[0.517000] (demo_nodes_py) StdoutLine: {'line': b'copying package.xml -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/demo_nodes_py\n'}
+[0.517054] (demo_nodes_py) StdoutLine: {'line': b'copying demo_nodes_py/parameters/params.yaml -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/demo_nodes_py\n'}
+[0.517126] (demo_nodes_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.517942] (demo_nodes_py) StdoutLine: {'line': b'Copying ../../../build/demo_nodes_py/demo_nodes_py.egg-info to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py-0.35.1-py3.10.egg-info\n'}
+[0.518415] (demo_nodes_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.529880] (demo_nodes_py) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530069] (demo_nodes_py) StdoutLine: {'line': b'Installing add_two_ints_client_async script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530188] (demo_nodes_py) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530269] (demo_nodes_py) StdoutLine: {'line': b'Installing async_param_client script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530366] (demo_nodes_py) StdoutLine: {'line': b'Installing introspection script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530429] (demo_nodes_py) StdoutLine: {'line': b'Installing listener script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530491] (demo_nodes_py) StdoutLine: {'line': b'Installing listener_qos script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530551] (demo_nodes_py) StdoutLine: {'line': b'Installing listener_serialized script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530659] (demo_nodes_py) StdoutLine: {'line': b'Installing matched_event_detect script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530719] (demo_nodes_py) StdoutLine: {'line': b'Installing set_parameters_callback script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530786] (demo_nodes_py) StdoutLine: {'line': b'Installing talker script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530842] (demo_nodes_py) StdoutLine: {'line': b'Installing talker_qos script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.530897] (demo_nodes_py) StdoutLine: {'line': b'Installing use_logger_service script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py\n'}
+[0.531024] (demo_nodes_py) StdoutLine: {'line': b"writing list of installed files to '/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/install.log'\n"}
+[0.547893] (demo_nodes_py) CommandEnded: {'returncode': 0}
+[0.561385] (demo_nodes_py) JobEnded: {'identifier': 'demo_nodes_py', 'rc': 0}
+[0.562096] (-) EventReactorShutdown: {}

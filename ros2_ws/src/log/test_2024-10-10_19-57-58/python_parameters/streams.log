@@ -1,0 +1,126 @@
+[2.826s] Invoking command in '/home/donavyn/docker_test/ros2_ws/src/python_parameters': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/python_parameters/pytest.xml --junit-prefix=python_parameters -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/python_parameters/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[3.062s] [1m============================= test session starts ==============================[0m
+[3.062s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[3.065s] cachedir: /home/donavyn/docker_test/ros2_ws/src/build/python_parameters/.pytest_cache
+[3.065s] rootdir: /home/donavyn/docker_test/ros2_ws/src/python_parameters
+[3.065s] plugins: ament-pep257-0.12.11, ament-lint-0.12.11, ament-xmllint-0.12.11, ament-flake8-0.12.11, launch-testing-ros-0.19.7, ament-copyright-0.12.11, launch-testing-1.0.6, cov-3.0.0, colcon-core-0.17.0
+[3.132s] [1mcollecting ... [0m[1m
+[3.132s] collected 3 items                                                              [0m
+[3.132s] 
+[3.136s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[3.296s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[3.344s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[3.345s] 
+[3.345s] =================================== FAILURES ===================================
+[3.345s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[3.345s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[3.369s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[3.369s] [1m[31mE   AssertionError: Found 13 code style errors / warnings:[0m
+[3.369s] [1m[31mE     ./setup.py:25:9: E122 continuation line missing indentation or outdented[0m
+[3.369s] [1m[31mE     ./launch/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1[0m
+[3.369s] [1m[31mE     ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[3.370s] [1m[31mE     ./install/python_parameters/share/python_parameters/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./build/python_parameters/prefix_override/sitecustomize.py:4:100: E501 line too long (106 > 99 characters)[0m
+[3.370s] [1m[31mE     ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[3.370s] [1m[31mE     ./python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1[0m
+[3.370s] [1m[31mE     ./python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[3.370s] [1m[31mE   assert 1 == 0[0m
+[3.370s] ----------------------------- Captured stdout call -----------------------------
+[3.370s] 
+[3.370s] ./setup.py:25:9: E122 continuation line missing indentation or outdented
+[3.370s]         'minimal_param_node = python_parameters.python_parameters_node:main',
+[3.370s]         ^
+[3.370s] 
+[3.370s] ./launch/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1
+[3.370s] def generate_launch_description():
+[3.370s] ^
+[3.370s] 
+[3.370s] ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1
+[3.370s] class MinimalParam(rclpy.node.Node):
+[3.370s] ^
+[3.370s] 
+[3.370s] ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1
+[3.370s] def main():
+[3.370s] ^
+[3.370s] 
+[3.370s] ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1
+[3.371s] if __name__ == '__main__':
+[3.371s] ^
+[3.371s] 
+[3.371s] ./install/python_parameters/share/python_parameters/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1
+[3.371s] def generate_launch_description():
+[3.371s] ^
+[3.371s] 
+[3.371s] ./build/python_parameters/prefix_override/sitecustomize.py:4:100: E501 line too long (106 > 99 characters)
+[3.371s]     sys.prefix = sys.exec_prefix = '/home/donavyn/ros2_ws/src/python_parameters/install/python_parameters'
+[3.371s]                                                                                                    ^
+[3.371s] 
+[3.371s] ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1
+[3.371s] class MinimalParam(rclpy.node.Node):
+[3.371s] ^
+[3.371s] 
+[3.371s] ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1
+[3.371s] def main():
+[3.371s] ^
+[3.371s] 
+[3.371s] ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1
+[3.371s] if __name__ == '__main__':
+[3.371s] ^
+[3.371s] 
+[3.371s] ./python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1
+[3.371s] class MinimalParam(rclpy.node.Node):
+[3.371s] ^
+[3.371s] 
+[3.371s] ./python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1
+[3.371s] def main():
+[3.371s] ^
+[3.371s] 
+[3.371s] ./python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1
+[3.371s] if __name__ == '__main__':
+[3.371s] ^
+[3.372s] 
+[3.372s] 1     E122 continuation line missing indentation or outdented
+[3.372s] 8     E302 expected 2 blank lines, found 1
+[3.372s] 3     E305 expected 2 blank lines after class or function definition, found 1
+[3.372s] 1     E501 line too long (106 > 99 characters)
+[3.372s] 
+[3.372s] 15 files checked
+[3.372s] 13 errors
+[3.372s] 
+[3.372s] 'E'-type errors: 13
+[3.372s] 
+[3.372s] Checked files:
+[3.372s] 
+[3.372s] * ./setup.py
+[3.372s] * ./launch/python_parameters_launch.py
+[3.372s] * ./install/_local_setup_util_ps1.py
+[3.372s] * ./install/_local_setup_util_sh.py
+[3.372s] * ./install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py
+[3.372s] * ./install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py
+[3.372s] * ./install/python_parameters/share/python_parameters/python_parameters_launch.py
+[3.372s] * ./test/test_flake8.py
+[3.372s] * ./test/test_copyright.py
+[3.372s] * ./test/test_pep257.py
+[3.372s] * ./build/python_parameters/prefix_override/sitecustomize.py
+[3.372s] * ./build/python_parameters/build/lib/python_parameters/__init__.py
+[3.372s] * ./build/python_parameters/build/lib/python_parameters/python_parameters_node.py
+[3.372s] * ./python_parameters/__init__.py
+[3.372s] * ./python_parameters/python_parameters_node.py
+[3.372s] ----------------------------- Captured stderr call -----------------------------
+[3.372s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[3.372s] [33m=============================== warnings summary ===============================[0m
+[3.373s] test/test_flake8.py::test_flake8
+[3.373s] test/test_flake8.py::test_flake8
+[3.373s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[3.373s] 
+[3.373s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[3.373s] - generated xml file: /home/donavyn/docker_test/ros2_ws/src/build/python_parameters/pytest.xml -
+[3.373s] =========================== short test summary info ============================
+[3.373s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 13 code style...
+[3.373s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.31s[0m[31m ==============[0m
+[3.430s] Invoked command in '/home/donavyn/docker_test/ros2_ws/src/python_parameters' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/python_parameters/pytest.xml --junit-prefix=python_parameters -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/python_parameters/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

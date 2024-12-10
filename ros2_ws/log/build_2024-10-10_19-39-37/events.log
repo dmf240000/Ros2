@@ -1,0 +1,35 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000130] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000141] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000149] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000157] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000164] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000172] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000179] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000186] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000194] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000201] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000208] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000216] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000223] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000230] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000238] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000247] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000254] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000262] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000269] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000277] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000284] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000292] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000299] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000307] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000314] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000321] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000329] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000336] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000343] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000353] (learning_tf2_py) JobQueued: {'identifier': 'learning_tf2_py', 'dependencies': OrderedDict([('turtlesim', '/home/donavyn/docker_test/ros2_ws/install/turtlesim')])}
+[0.000376] (learning_tf2_py) JobStarted: {'identifier': 'learning_tf2_py'}
+[0.009976] (learning_tf2_py) JobEnded: {'identifier': 'learning_tf2_py', 'rc': 1}
+[0.020475] (-) EventReactorShutdown: {}

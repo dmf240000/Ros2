@@ -1,0 +1,22 @@
+[1.198s] Invoking command in '/home/donavyn/docker_test/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[2.865s] 
+[2.865s] [33m=============================== warnings summary ===============================[0m
+[2.865s] topics/minimal_publisher/test/test_flake8.py::test_flake8
+[2.865s] topics/minimal_publisher/test/test_flake8.py::test_flake8
+[2.865s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.865s] 
+[2.865s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.865s] [1m============================= test session starts ==============================[0m
+[2.866s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.866s] cachedir: /home/donavyn/docker_test/ros2_ws/src/build/examples_rclpy_minimal_publisher/.pytest_cache
+[2.866s] rootdir: /home/donavyn/docker_test/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[2.866s] plugins: ament-pep257-0.12.11, ament-lint-0.12.11, ament-xmllint-0.12.11, ament-flake8-0.12.11, launch-testing-ros-0.19.7, ament-copyright-0.12.11, launch-testing-1.0.6, cov-3.0.0, colcon-core-0.17.0
+[2.866s] [1mcollecting ... [0m[1m
+[2.866s] collected 3 items                                                              [0m
+[2.866s] 
+[2.866s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.866s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[2.866s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[2.866s] - generated xml file: /home/donavyn/docker_test/ros2_ws/src/build/examples_rclpy_minimal_publisher/pytest.xml -
+[2.866s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.30s[0m[33m =========================[0m
+[3.073s] Invoked command in '/home/donavyn/docker_test/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

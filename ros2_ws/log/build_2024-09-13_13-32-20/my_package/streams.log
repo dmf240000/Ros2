@@ -1,0 +1,38 @@
+[1.526s] Invoking command in '/home/donavyn/ros2_ws/src/my_package': PYTHONPATH=/home/donavyn/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/donavyn/ros2_ws/build/my_package/build install --record /home/donavyn/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[1.731s] running egg_info
+[1.732s] creating ../../build/my_package/my_package.egg-info
+[1.732s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.733s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.733s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.733s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.733s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.733s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.735s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.735s] adding license file 'LICENSE'
+[1.735s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.736s] running build
+[1.736s] running build_py
+[1.736s] creating /home/donavyn/ros2_ws/build/my_package/build
+[1.736s] creating /home/donavyn/ros2_ws/build/my_package/build/lib
+[1.736s] creating /home/donavyn/ros2_ws/build/my_package/build/lib/my_package
+[1.736s] copying my_package/__init__.py -> /home/donavyn/ros2_ws/build/my_package/build/lib/my_package
+[1.736s] copying my_package/my_node.py -> /home/donavyn/ros2_ws/build/my_package/build/lib/my_package
+[1.736s] running install
+[1.736s] running install_lib
+[1.737s] creating /home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.737s] copying /home/donavyn/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.737s] copying /home/donavyn/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.737s] byte-compiling /home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[1.738s] byte-compiling /home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[1.738s] running install_data
+[1.738s] creating /home/donavyn/ros2_ws/install/my_package/share/ament_index
+[1.738s] creating /home/donavyn/ros2_ws/install/my_package/share/ament_index/resource_index
+[1.738s] creating /home/donavyn/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[1.738s] copying resource/my_package -> /home/donavyn/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[1.738s] copying package.xml -> /home/donavyn/ros2_ws/install/my_package/share/my_package
+[1.738s] running install_egg_info
+[1.740s] Copying ../../build/my_package/my_package.egg-info to /home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.741s] running install_scripts
+[1.762s] Installing my_node script to /home/donavyn/ros2_ws/install/my_package/lib/my_package
+[1.763s] writing list of installed files to '/home/donavyn/ros2_ws/build/my_package/install.log'
+[1.790s] Invoked command in '/home/donavyn/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/donavyn/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/donavyn/ros2_ws/build/my_package/build install --record /home/donavyn/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data

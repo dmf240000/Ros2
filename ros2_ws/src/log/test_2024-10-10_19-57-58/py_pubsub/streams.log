@@ -1,0 +1,62 @@
+[2.439s] Invoking command in '/home/donavyn/docker_test/ros2_ws/src/py_pubsub': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/py_pubsub/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[2.849s] [1m============================= test session starts ==============================[0m
+[2.849s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.849s] cachedir: /home/donavyn/docker_test/ros2_ws/src/build/py_pubsub/.pytest_cache
+[2.849s] rootdir: /home/donavyn/docker_test/ros2_ws/src/py_pubsub
+[2.849s] plugins: ament-pep257-0.12.11, ament-lint-0.12.11, ament-xmllint-0.12.11, ament-flake8-0.12.11, launch-testing-ros-0.19.7, ament-copyright-0.12.11, launch-testing-1.0.6, cov-3.0.0, colcon-core-0.17.0
+[2.849s] [1mcollecting ... [0m[1m
+[2.849s] collected 3 items                                                              [0m
+[2.849s] 
+[2.849s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[2.849s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[2.849s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[2.849s] 
+[2.849s] =================================== FAILURES ===================================
+[2.849s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[2.850s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[2.857s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[2.858s] [1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[2.858s] [1m[31mE     ./setup.py:22:5: W191 indentation contains tabs[0m
+[2.858s] [1m[31mE     ./setup.py:22:5: E101 indentation contains mixed spaces and tabs[0m
+[2.858s] [1m[31mE   assert 1 == 0[0m
+[2.858s] ----------------------------- Captured stdout call -----------------------------
+[2.858s] 
+[2.858s] ./setup.py:22:5: W191 indentation contains tabs
+[2.858s]     	'console_scripts': [
+[2.858s]     ^
+[2.858s] 
+[2.858s] ./setup.py:22:5: E101 indentation contains mixed spaces and tabs
+[2.858s]     	'console_scripts': [
+[2.858s]     ^
+[2.858s] 
+[2.858s] 1     E101 indentation contains mixed spaces and tabs
+[2.858s] 1     W191 indentation contains tabs
+[2.858s] 
+[2.858s] 7 files checked
+[2.858s] 2 errors
+[2.858s] 
+[2.858s] 'E'-type errors: 1
+[2.858s] 'W'-type errors: 1
+[2.858s] 
+[2.858s] Checked files:
+[2.858s] 
+[2.859s] * ./setup.py
+[2.859s] * ./py_pubsub/publisher_member_function.py
+[2.859s] * ./py_pubsub/__init__.py
+[2.859s] * ./py_pubsub/subscriber_member_function.py
+[2.859s] * ./test/test_flake8.py
+[2.859s] * ./test/test_copyright.py
+[2.859s] * ./test/test_pep257.py
+[2.859s] ----------------------------- Captured stderr call -----------------------------
+[2.859s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[2.859s] [33m=============================== warnings summary ===============================[0m
+[2.859s] test/test_flake8.py::test_flake8
+[2.859s] test/test_flake8.py::test_flake8
+[2.859s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.859s] 
+[2.859s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.859s] - generated xml file: /home/donavyn/docker_test/ros2_ws/src/build/py_pubsub/pytest.xml -
+[2.859s] =========================== short test summary info ============================
+[2.859s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 2 code style ...
+[2.859s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.20s[0m[31m ==============[0m
+[3.057s] Invoked command in '/home/donavyn/docker_test/ros2_ws/src/py_pubsub' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/py_pubsub/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

@@ -1,0 +1,1 @@
+Invoking command in '/home/donavyn/docker_test/ros2_ws/build/composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/donavyn/docker_test/ros2_ws/src/demos/composition -DCMAKE_INSTALL_PREFIX=/home/donavyn/docker_test/ros2_ws/install/composition

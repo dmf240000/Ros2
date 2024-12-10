@@ -1,0 +1,72 @@
+[2.635s] Invoking command in '/home/donavyn/docker_test/ros2_ws/src/py_srvcli': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/py_srvcli/pytest.xml --junit-prefix=py_srvcli -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/py_srvcli/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[2.857s] [1m============================= test session starts ==============================[0m
+[2.857s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.861s] cachedir: /home/donavyn/docker_test/ros2_ws/src/build/py_srvcli/.pytest_cache
+[2.861s] rootdir: /home/donavyn/docker_test/ros2_ws/src/py_srvcli
+[2.861s] plugins: ament-pep257-0.12.11, ament-lint-0.12.11, ament-xmllint-0.12.11, ament-flake8-0.12.11, launch-testing-ros-0.19.7, ament-copyright-0.12.11, launch-testing-1.0.6, cov-3.0.0, colcon-core-0.17.0
+[2.919s] [1mcollecting ... [0m[1m
+[2.919s] collected 3 items                                                              [0m
+[2.919s] 
+[2.923s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[3.029s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[3.043s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[3.044s] 
+[3.044s] =================================== FAILURES ===================================
+[3.044s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[3.044s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[3.074s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[3.074s] [1m[31mE   AssertionError: Found 4 code style errors / warnings:[0m
+[3.075s] [33m=============================== warnings summary ===============================[0m
+[3.075s] test/test_flake8.py::test_flake8
+[3.075s] test/test_flake8.py::test_flake8
+[3.075s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[3.075s] 
+[3.075s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[3.075s] [1m[31mE     ./setup.py:23:9: W191 indentation contains tabs[0m
+[3.075s] [1m[31mE     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs[0m
+[3.075s] [1m[31mE     ./setup.py:24:9: W191 indentation contains tabs[0m
+[3.075s] [1m[31mE     ./setup.py:24:9: E101 indentation contains mixed spaces and tabs[0m
+[3.075s] [1m[31mE   assert 1 == 0[0m
+[3.075s] ----------------------------- Captured stdout call -----------------------------
+[3.075s] 
+[3.076s] ./setup.py:23:9: W191 indentation contains tabs
+[3.076s]         	'service = py_srvcli.service_member_function:main',
+[3.076s]         ^
+[3.076s] 
+[3.076s] ./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+[3.076s]         	'service = py_srvcli.service_member_function:main',
+[3.076s]         ^
+[3.076s] 
+[3.076s] ./setup.py:24:9: W191 indentation contains tabs
+[3.076s]         	'client = py_srvcli.client_member_function:main',
+[3.076s]         ^
+[3.076s] 
+[3.076s] ./setup.py:24:9: E101 indentation contains mixed spaces and tabs
+[3.076s]         	'client = py_srvcli.client_member_function:main',
+[3.076s]         ^
+[3.076s] 
+[3.076s] 2     E101 indentation contains mixed spaces and tabs
+[3.076s] 2     W191 indentation contains tabs
+[3.076s] 
+[3.076s] 7 files checked
+[3.076s] 4 errors
+[3.076s] 
+[3.076s] 'E'-type errors: 2
+[3.077s] 'W'-type errors: 2
+[3.077s] 
+[3.077s] Checked files:
+[3.077s] 
+[3.077s] * ./setup.py
+[3.077s] * ./test/test_flake8.py
+[3.077s] * ./test/test_copyright.py
+[3.077s] * ./test/test_pep257.py
+[3.077s] * ./py_srvcli/__init__.py
+[3.077s] * ./py_srvcli/service_member_function.py
+[3.077s] * ./py_srvcli/client_member_function.py
+[3.077s] ----------------------------- Captured stderr call -----------------------------
+[3.077s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[3.077s] - generated xml file: /home/donavyn/docker_test/ros2_ws/src/build/py_srvcli/pytest.xml -
+[3.077s] =========================== short test summary info ============================
+[3.077s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 4 code style ...
+[3.077s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.22s[0m[31m ==============[0m
+[3.148s] Invoked command in '/home/donavyn/docker_test/ros2_ws/src/py_srvcli' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/src/build/py_srvcli/pytest.xml --junit-prefix=py_srvcli -o cache_dir=/home/donavyn/docker_test/ros2_ws/src/build/py_srvcli/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

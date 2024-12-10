@@ -1,0 +1,62 @@
+[0.179s] Invoking command in '/home/donavyn/docker_test/ros2_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/donavyn/docker_test/ros2_ws/install/py_pubsub:/home/donavyn/docker_test/ros2_ws/src/install/learning_tf2_py:/home/donavyn/docker_test/ros2_ws/install/tutorial_interfaces:/home/donavyn/docker_test/ros2_ws/install/turtlesim:/home/donavyn/docker_test/ros2_ws/install/python_parameters:/home/donavyn/docker_test/ros2_ws/install/py_srvcli:/home/donavyn/docker_test/ros2_ws/install/my_package:/home/donavyn/docker_test/ros2_ws/install/more_interfaces:/home/donavyn/docker_test/ros2_ws/install/launch_testing_examples:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_service:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_publisher:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_client:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_server:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_client:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_guard_conditions:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_executors:/home/donavyn/docker_test/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/donavyn/docker_test/ros2_ws/build/py_pubsub/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/donavyn/docker_test/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/src/install/learning_tf2_py/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/donavyn/docker_test/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/donavyn/docker_test/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/donavyn/docker_test/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[0.370s] [1m============================= test session starts ==============================[0m
+[0.370s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.373s] cachedir: /home/donavyn/docker_test/ros2_ws/build/py_pubsub/.pytest_cache
+[0.373s] rootdir: /home/donavyn/docker_test/ros2_ws/src/py_pubsub
+[0.373s] plugins: ament-pep257-0.12.11, ament-lint-0.12.11, ament-xmllint-0.12.11, ament-flake8-0.12.11, launch-testing-ros-0.19.7, ament-copyright-0.12.11, launch-testing-1.0.6, cov-3.0.0, colcon-core-0.17.0
+[0.433s] [1mcollecting ... [0m[1m
+[0.433s] collected 3 items                                                              [0m
+[0.433s] 
+[0.437s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.519s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.534s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.534s] 
+[0.534s] =================================== FAILURES ===================================
+[0.534s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.534s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.557s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.557s] [1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[0.557s] [1m[31mE     ./setup.py:22:5: W191 indentation contains tabs[0m
+[0.557s] [1m[31mE     ./setup.py:22:5: E101 indentation contains mixed spaces and tabs[0m
+[0.557s] [1m[31mE   assert 1 == 0[0m
+[0.557s] ----------------------------- Captured stdout call -----------------------------
+[0.557s] 
+[0.557s] ./setup.py:22:5: W191 indentation contains tabs
+[0.558s]     	'console_scripts': [
+[0.558s]     ^
+[0.558s] 
+[0.558s] ./setup.py:22:5: E101 indentation contains mixed spaces and tabs
+[0.558s]     	'console_scripts': [
+[0.558s]     ^
+[0.558s] 
+[0.558s] 1     E101 indentation contains mixed spaces and tabs
+[0.558s] 1     W191 indentation contains tabs
+[0.558s] 
+[0.558s] 7 files checked
+[0.558s] 2 errors
+[0.558s] 
+[0.558s] 'E'-type errors: 1
+[0.558s] 'W'-type errors: 1
+[0.558s] 
+[0.558s] Checked files:
+[0.559s] 
+[0.559s] * ./setup.py
+[0.559s] * ./py_pubsub/publisher_member_function.py
+[0.559s] * ./py_pubsub/__init__.py
+[0.559s] * ./py_pubsub/subscriber_member_function.py
+[0.559s] * ./test/test_flake8.py
+[0.559s] * ./test/test_copyright.py
+[0.559s] * ./test/test_pep257.py
+[0.559s] ----------------------------- Captured stderr call -----------------------------
+[0.559s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.559s] - generated xml file: /home/donavyn/docker_test/ros2_ws/build/py_pubsub/pytest.xml -
+[0.559s] [33m=============================== warnings summary ===============================[0m
+[0.559s] test/test_flake8.py::test_flake8
+[0.559s] test/test_flake8.py::test_flake8
+[0.559s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.559s] 
+[0.559s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.560s] =========================== short test summary info ============================
+[0.560s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 2 code style ...
+[0.560s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.19s[0m[31m ==============[0m
+[0.617s] Invoked command in '/home/donavyn/docker_test/ros2_ws/src/py_pubsub' returned '1': AMENT_PREFIX_PATH=/home/donavyn/docker_test/ros2_ws/install/py_pubsub:/home/donavyn/docker_test/ros2_ws/src/install/learning_tf2_py:/home/donavyn/docker_test/ros2_ws/install/tutorial_interfaces:/home/donavyn/docker_test/ros2_ws/install/turtlesim:/home/donavyn/docker_test/ros2_ws/install/python_parameters:/home/donavyn/docker_test/ros2_ws/install/py_srvcli:/home/donavyn/docker_test/ros2_ws/install/my_package:/home/donavyn/docker_test/ros2_ws/install/more_interfaces:/home/donavyn/docker_test/ros2_ws/install/launch_testing_examples:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_service:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_publisher:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_client:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_server:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_client:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_guard_conditions:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_executors:/home/donavyn/docker_test/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/donavyn/docker_test/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/donavyn/docker_test/ros2_ws/build/py_pubsub/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/donavyn/docker_test/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/src/install/learning_tf2_py/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/donavyn/docker_test/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/donavyn/docker_test/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/donavyn/docker_test/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/donavyn/docker_test/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest

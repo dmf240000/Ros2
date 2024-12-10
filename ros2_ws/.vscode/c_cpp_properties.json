@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/donavyn/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/donavyn/ros2_ws/install/turtlesim/include/**",
+        "/home/donavyn/ros2_ws/install/more_interfaces/include/**",
+        "/home/donavyn/ros2_ws/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/donavyn/ros2_ws/install/action_tutorials_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/donavyn/ros2_ws/src/action_tutorials_interfaces/include/**",
+        "/home/donavyn/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/**",
+        "/home/donavyn/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/**",
+        "/home/donavyn/ros2_ws/src/examples/rclcpp/wait_set/include/**",
+        "/home/donavyn/ros2_ws/src/more_interfaces/include/**",
+        "/home/donavyn/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

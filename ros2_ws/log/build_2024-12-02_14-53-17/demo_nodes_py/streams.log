@@ -1,0 +1,111 @@
+[0.379s] Invoking command in '/home/donavyn/docker_test/ros2_ws/src/demos/demo_nodes_py': PYTHONPATH=/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/demo_nodes_py build --build-base /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build install --record /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/install.log --single-version-externally-managed install_data
+[0.505s] running egg_info
+[0.505s] creating ../../../build/demo_nodes_py/demo_nodes_py.egg-info
+[0.505s] writing ../../../build/demo_nodes_py/demo_nodes_py.egg-info/PKG-INFO
+[0.506s] writing dependency_links to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/dependency_links.txt
+[0.506s] writing entry points to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/entry_points.txt
+[0.506s] writing requirements to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/requires.txt
+[0.506s] writing top-level names to ../../../build/demo_nodes_py/demo_nodes_py.egg-info/top_level.txt
+[0.506s] writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[0.507s] reading manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[0.507s] writing manifest file '../../../build/demo_nodes_py/demo_nodes_py.egg-info/SOURCES.txt'
+[0.507s] running build
+[0.508s] running build_py
+[0.508s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build
+[0.508s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib
+[0.508s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py
+[0.508s] copying demo_nodes_py/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py
+[0.508s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging
+[0.508s] copying demo_nodes_py/logging/use_logger_service.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging
+[0.508s] copying demo_nodes_py/logging/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging
+[0.508s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters
+[0.508s] copying demo_nodes_py/parameters/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters
+[0.508s] copying demo_nodes_py/parameters/set_parameters_callback.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters
+[0.509s] copying demo_nodes_py/parameters/async_param_client.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters
+[0.509s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events
+[0.509s] copying demo_nodes_py/events/matched_event_detect.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events
+[0.509s] copying demo_nodes_py/events/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events
+[0.509s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[0.509s] copying demo_nodes_py/services/add_two_ints_server.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[0.509s] copying demo_nodes_py/services/add_two_ints_client_async.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[0.509s] copying demo_nodes_py/services/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[0.509s] copying demo_nodes_py/services/add_two_ints_client.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[0.509s] copying demo_nodes_py/services/introspection.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services
+[0.509s] creating /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.509s] copying demo_nodes_py/topics/talker.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.509s] copying demo_nodes_py/topics/__init__.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.510s] copying demo_nodes_py/topics/talker_qos.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.510s] copying demo_nodes_py/topics/listener.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.510s] copying demo_nodes_py/topics/listener_serialized.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.510s] copying demo_nodes_py/topics/listener_qos.py -> /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics
+[0.510s] running install
+[0.510s] running install_lib
+[0.510s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py
+[0.510s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging
+[0.510s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging/use_logger_service.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging
+[0.510s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/logging/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging
+[0.510s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters
+[0.510s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters
+[0.510s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters/set_parameters_callback.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/parameters/async_param_client.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters
+[0.511s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events/matched_event_detect.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/events/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py
+[0.511s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_server.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_client_async.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/add_two_ints_client.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/services/introspection.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services
+[0.511s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/talker.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.511s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/__init__.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.512s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/talker_qos.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.512s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.512s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener_serialized.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.512s] copying /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build/lib/demo_nodes_py/topics/listener_qos.py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics
+[0.512s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging/use_logger_service.py to use_logger_service.cpython-310.pyc
+[0.512s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/logging/__init__.py to __init__.cpython-310.pyc
+[0.512s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters/__init__.py to __init__.cpython-310.pyc
+[0.512s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters/set_parameters_callback.py to set_parameters_callback.cpython-310.pyc
+[0.513s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/parameters/async_param_client.py to async_param_client.cpython-310.pyc
+[0.513s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events/matched_event_detect.py to matched_event_detect.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/events/__init__.py to __init__.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/__init__.py to __init__.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_client_async.py to add_two_ints_client_async.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/__init__.py to __init__.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[0.514s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/services/introspection.py to introspection.cpython-310.pyc
+[0.515s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/talker.py to talker.cpython-310.pyc
+[0.515s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/__init__.py to __init__.cpython-310.pyc
+[0.515s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/talker_qos.py to talker_qos.cpython-310.pyc
+[0.516s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener.py to listener.cpython-310.pyc
+[0.516s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener_serialized.py to listener_serialized.cpython-310.pyc
+[0.516s] byte-compiling /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py/topics/listener_qos.py to listener_qos.cpython-310.pyc
+[0.516s] running install_data
+[0.516s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index
+[0.516s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index
+[0.516s] creating /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages
+[0.516s] copying resource/demo_nodes_py -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/ament_index/resource_index/packages
+[0.517s] copying package.xml -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/demo_nodes_py
+[0.517s] copying demo_nodes_py/parameters/params.yaml -> /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/share/demo_nodes_py
+[0.517s] running install_egg_info
+[0.517s] Copying ../../../build/demo_nodes_py/demo_nodes_py.egg-info to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages/demo_nodes_py-0.35.1-py3.10.egg-info
+[0.518s] running install_scripts
+[0.529s] Installing add_two_ints_client script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing add_two_ints_client_async script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing add_two_ints_server script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing async_param_client script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing introspection script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing listener script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing listener_qos script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing listener_serialized script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing matched_event_detect script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing set_parameters_callback script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing talker script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing talker_qos script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.530s] Installing use_logger_service script to /home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/demo_nodes_py
+[0.531s] writing list of installed files to '/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/install.log'
+[0.548s] Invoked command in '/home/donavyn/docker_test/ros2_ws/src/demos/demo_nodes_py' returned '0': PYTHONPATH=/home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donavyn/docker_test/ros2_ws/install/demo_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/demo_nodes_py build --build-base /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/build install --record /home/donavyn/docker_test/ros2_ws/build/demo_nodes_py/install.log --single-version-externally-managed install_data

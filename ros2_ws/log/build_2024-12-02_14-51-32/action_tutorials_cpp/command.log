@@ -1,0 +1,1 @@
+Invoking command in '/home/donavyn/docker_test/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/donavyn/docker_test/ros2_ws/src/demos/action_tutorials/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/donavyn/docker_test/ros2_ws/install/action_tutorials_cpp
